@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+    *{margin: 0;
+    padding: 0;}
+    .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    box-sizing: border-box;
+    }
+    .figure{
+    width: calc(100% / 3 - 2px);
+    aspect-ratio: 1;
+line-height:0 ;
+}
+    
+    .image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    </style>
+</head>
+<body>
+   <div class="gallery">
+    <figure class="figure">
+    
+        <img class="image" src="https://lestatus.ru/wp-content/uploads/%D0%91%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F.jpg" alt=""/>
+    </figure>
+
+    <figure class="figure">
+    
+        <img class="image" src="https://sportishka.com/uploads/posts/2022-04/1650544141_36-sportishka-com-p-krasivii-peterburg-krasivo-foto-41.jpg" alt=""/>
+    </figure>
+    <figure class="figure">
+    
+        <img class="image" src="https://www.trn-news.ru/Ru/Upload/Image/Mayak22132255.jpg" alt=""/>
+    </figure>
+    <figure class="figure">
+    
+        <img class="image" src="https://i.pinimg.com/originals/be/b2/78/beb278555e80cc7f245f4ab63800c7c6.jpg" alt=""/>
+    </figure>
+    <figure class="figure">
+    
+        <img class="image" src="https://architectureguru.ru/wp-content/uploads/2015/09/vladivostok-vantovye.jpg" alt=""/>
+    </figure>
+    </div> 
+</body>
+</html>
