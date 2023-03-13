@@ -12,15 +12,27 @@
     :root{
      --color-grey:#e1e1e7 ;
     }
-    *{margin: 0;
-    padding: 0;}
-    body{font-family:'Roboto:ital''Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    * {margin: 0;
+    padding: 0;
+}
+    
+.row{
+    display: flex;
+    justify-content: baseline;
+}
+    html,
+    body,
+    .row{
+        height: 100%;
+    }
+    body{
 display: flex;
 justify-content:center ;
 }
 .row{
  display: flex;
- gap: 60px;   
+ gap: 60px;  
+ margin-top: 100%; 
 }
 .row__small-item{
     flex: 1;
@@ -37,11 +49,11 @@ main{
     justify-content: center; 
     background: var(--color-grey) 
 }
-img{
-    width: 40px;
-    height: 70px;
-    object-fit: cover;
-}
+figure{
+    width: 60px;
+    aspect-ratio: 1;}
+
+
     </style>
     
 </head>
@@ -66,6 +78,7 @@ img{
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui vel animi quo voluptates, facere labore eos earum et similique quod!</p>
 
         </div>
+        
         <div class="row__small-item">
 <span class="icon">
   <i class="las la-crow"></i>  
@@ -73,22 +86,25 @@ img{
 <h4>Text</h4>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perferendis voluptatem voluptas vitae beatae eum sequi inventore qui quas cum.</p>
         </div>
+        </div>
+        <div class="row">
+
         <div class="row__item">
-        <h3> hlp[oihytgti</h3>
+        <h3> Text..</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vitae nihil earum nulla, tempora nemo mollitia facere itaque omnis soluta ea corrupti amet harum assumenda quidem ab incidunt consequatur ad, reprehenderit porro consectetur beatae. Rem unde molestiae eligendi reprehenderit est nemo laborum porro libero architecto ea molestias maiores, provident assumenda.</p>
         <figure> 
           <img src="https://photos.lifeisphoto.ru/43/0/431085.jpg" alt=""> 
         </figure>
     </div>
     <div class="row__item">
-        <h3>ftyujkl</h3>
+        <h3>text</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore doloribus iusto, vel iure, veritatis reprehenderit consequatur amet enim ipsa praesentium quaerat cum ut tempora, minima velit nemo sapiente mollitia temporibus voluptatem laboriosam? Adipisci odit, velit veritatis qui ipsum sequi eius! Harum nulla explicabo illum impedit dolor eius ea eos veritatis?</p>
         <figure>
-            <img src="https://vsegda-pomnim.com/uploads/posts/2022-04/1649644818_26-vsegda-pomnim-com-p-tsveti-s-tichinkami-foto-33.jpg" alt="">
+            <img src="https://get.wallhere.com/photo/nature-red-photography-branch-blossom-pink-spring-light-color-leaf-flower-plant-flora-petal-close-up-macro-photography-89427.jpg" alt="">
 
         </figure>
     </div>
-       </div>   
+         </div>
             
 
             
