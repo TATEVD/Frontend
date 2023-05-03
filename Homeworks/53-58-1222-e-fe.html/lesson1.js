@@ -14,4 +14,5 @@ function handle (){
     console.log(2)
     console.log(3)
 }
-handle(4)
+let massege = 'Hallo';
+console.log(massege);
