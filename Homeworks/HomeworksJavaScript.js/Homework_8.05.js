@@ -26,4 +26,3 @@
 //let array = [1,2,3,4,5];
 //checkSome(array,(elem)=> elem === 4);
 //checkSome(array,(elem)=> elem === 6);
-console.log
