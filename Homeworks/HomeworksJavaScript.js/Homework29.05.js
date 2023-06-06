@@ -56,6 +56,7 @@ for (let i = 0; i < array.length; i ++){
  /*let names = [
     'Steven',
     'Alex NULL',
+    
     'Glandel NULL',
     'Neena',
     'John',
